@@ -12,6 +12,7 @@ export default <DefaultTheme.Config["nav"]>[
       { text: "Typescript", link: "/questions/typescript" },
       { text: "前端工程化", link: "/questions/project" },
       { text: "工作流程", link: "/questions/workflow" },
+      { text: "浏览器工作原理", link: "/questions/browser" },
     ],
   },
 ];

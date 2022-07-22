@@ -92,3 +92,10 @@ BOM是浏览器厂商在各自的浏览器上定义的，兼容性较差。
 - `location`：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Location)  
 - `screen`： [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/screen)
 - `history`：[MDN](https://developer.mozilla.org/en-US/docs/Web/API/History)
+
+## JS为什么需要微任务？  
+
+插队执行  
+
+- 在下一个宏任务之前执行  
+- 在下一次渲染之前执行  
