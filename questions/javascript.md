@@ -99,3 +99,12 @@ BOM是浏览器厂商在各自的浏览器上定义的，兼容性较差。
 
 - 在下一个宏任务之前执行  
 - 在下一次渲染之前执行  
+
+## new 关键字创建对象时做了什么？
+
+参考：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new#%E6%8F%8F%E8%BF%B0)
+
+1. 创建一个空对象（即`{}`）
+2. 为这个空对象添加`__proto__`属性，这个属性指向构造函数的`prototype`  
+3. 这个空对象作为构造函数的`this`，执行构造函数
+4. 如果构造函数没有返回对象，则返回`this`
