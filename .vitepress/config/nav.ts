@@ -14,6 +14,7 @@ export default <DefaultTheme.Config["nav"]>[
       { text: "工作流程", link: "/questions/workflow" },
       { text: "浏览器工作原理", link: "/questions/browser" },
       { text: "git", link: "/questions/git" },
+      { text: "网络", link: "/questions/network" },
     ],
   },
 ];
